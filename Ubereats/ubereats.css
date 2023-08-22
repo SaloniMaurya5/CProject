@@ -1,0 +1,826 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'roboto';
+}
+.bk
+{
+    background-image: url(../UBEREATS/image/uberbg.png);
+    background-attachment: fixed;
+    background-size:cover;
+}
+.ubereats
+{
+    display: flex;
+    height: 200PX;
+    /* background-color: #fff; */
+    background-attachment: fixed;
+    padding: 50PX;
+    
+}
+.icon
+{
+    
+    /* background-color: blueviolet;  */
+    height: 100px;
+    width: 80%;
+    font-size: 70px;
+    line-height: 100px;
+    padding-left: 4%;
+}
+.in
+{
+    /* background-color: red; */
+
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+}
+.signup
+{
+    /* background-color:yellow; */
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    color: aliceblue;
+    
+}
+.broderuser
+{
+    background-color: white;
+    height: 100px;
+    width: 10%;
+    border-radius: 50px;
+    margin-left: 150px;
+
+}
+.brodersignup
+{
+    background-color: black;
+    height: 100px;
+    width: 10%;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+/* ..................................2................................... */
+.box1
+{
+    height: 1200px;
+    /* background-image: url(../UBEREATS/image/uberbg.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 4%;
+    padding-top: 15%;
+    /* font-size: 50px; */
+}
+.contain
+{
+    height: 100px;
+    width: 80%;
+    /* background-color: aqua; */
+    font-size: 50px; 
+}
+
+.ps
+{
+    padding-top: 2%; 
+    display: flex;
+    
+}
+.icon2
+{
+    background-color: #fff;
+    height: 98px;
+    width: 4%;
+    color: black;
+    font-size: 40px;
+    line-height: 98px;
+    padding-left: 30px;
+
+}
+input
+{
+    height: 98px;
+    width: 35%;
+    font-size: 40px;
+    border-style: none;
+    
+}
+select
+{
+    height:100px;
+    width:200px;
+    font-size: 20px;
+    background-color: yellow;
+    
+}
+.watch
+{
+    background-color: #fff;
+    height: 98px;
+    width: 3%;
+    color: black;
+    font-size: 30px;
+    line-height: 98px;
+    padding-left: 30px;
+    margin-left: 20px;
+
+      
+}
+#dev
+{
+     background-color: #fff;
+     border-style: none;
+     font-size: 30px;
+     height: 98px;
+     width: 11%;
+     /* text-align: center; */
+     
+}
+.find
+{
+    
+      height: 100px;
+      width: 8%;
+      background-color:black;
+      color:white;
+      text-align: center;
+      font-size: 30px;
+      line-height: 100px;
+      border-radius: 10%;
+      margin-left: 20px;
+
+}
+.aa
+{
+    font-size: 30px;
+    padding-top: 2%;
+}
+
+/* .....................................................3.............................................................. */
+.box2
+{
+    width: 100%;
+    height: 700px;
+    /* background-color: blueviolet; */
+}
+.bx
+{   
+    padding-top: 3%;
+    justify-content:space-evenly;
+    display: flex;
+    /* background-color:aqua */
+}
+.feed
+{
+    background-image: url(../UBEREATS/image/laptopguy.png);
+    width: 30%;
+    height: 450px;
+    /* border: solid black; */
+}
+.restaurant
+{
+    background-image: url(../UBEREATS/image/cookingguy.png);
+    width: 30%;
+    height: 450px;
+    /* border: solid black; */
+}
+.deliver
+{
+    background-image: url(../UBEREATS/image/cyclingguy.png);
+    width: 30%;
+    height: 450px;
+    /* border: solid black; */
+
+}
+.ag
+{
+    padding-top: 1%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    line-height:50px ;
+    font-size: 50px;
+    margin-left: 70px;
+    /* background-color:aqua         */
+}
+
+.ees
+{
+    width: 28%;
+    height: 50px;
+    /* background-color: brown; */
+    padding-left: 13px;
+}
+.ess1
+{
+    width: 37%;
+    height: 50px;
+    /* background-color: khaki; */
+    padding-right: 7%;
+    text-align: center;
+
+}
+.ess2
+{
+    width: 34%;
+    height: 50px;
+    /* background-color: green; */
+    padding-left: 42px;
+
+}
+.agg
+{
+   
+    display: flex;
+    /* justify-content: space-evenly; */
+    line-height:50px ;
+    font-size: 30px;
+    margin-left: 70px;
+    /* background-color:aqua; */
+    height: 130px;     
+}
+
+.ees11
+{
+    width: 28%;
+    height: 50px;
+    /* background-color: brown; */
+    padding-left: 13px;
+}
+.ess12
+{
+    width: 37%;
+    height: 50px;
+    /* background-color: khaki; */
+    padding-left: 5.5%;
+    
+
+}
+.ess13
+{
+    width: 34%;
+    height: 50px;
+    /* background-color: green; */
+    padding-left: 42px;
+
+}
+/* ............................................4.....................................................  */
+.box3
+{
+    height: 120px;
+    width:100%;
+    /* background-color: red; */
+    display: flex;
+}
+.cit
+{
+    height: 200px;
+    width: 50%;
+    /* background-color:blue; */
+    padding-left: 2%;
+    /* padding-bottom: 4%; */
+    font-size: 50px;
+    line-height: 200px;
+    color: black;
+
+}
+.view
+{
+      height: 200px;
+      width: 50%;
+      /* background-color: aqua; */
+      font-size: 40px;
+      line-height: 200px;
+      padding-left: 36%;
+}
+/* ..........................................5........................................................... */
+.map
+{
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+/* ...............................................6.......................................................... */
+.box4
+{
+       /* width: 100%; */
+       /* height: 900px; */
+       /* background-color: palevioletred; */
+       display: flex;
+       /* justify-content: space-evenly; */
+       /* font-size: 50px; */
+       /* line-height: 100px; */
+       margin-top: 3%;
+       
+       
+}
+.akron
+{
+
+    width: 25%;
+    height: 100px;
+    /* background-color: red; */
+    font-size: 50px;
+    padding-left: 2%;
+}
+.hartford
+{
+    
+    width: 25%;
+    height: 100px;
+    /* background-color: blue; */
+    font-size: 50px;
+    padding-left: 15px;
+}
+.nashville
+{
+    
+    width: 25%;
+    height: 100px;
+    /* background-color: red; */
+    font-size: 50px;
+    padding-left: 15px;
+}
+.providence
+{
+    
+    width: 25%;
+    height: 100px;
+    /* background-color: blue; */
+    font-size: 50px;
+    padding-left: 15px;
+}
+.box5
+{
+       /* background-color: yellow; */
+       display: flex;
+}
+.albuquerque
+{
+    width: 25%;
+    height: 100px;
+    /* background-color: blue; */
+    font-size: 50px;
+    padding-left: 50px;
+}
+.houston
+{
+    
+    width: 25%;
+    height: 100px;
+    /* background-color: red; */
+    font-size: 50px;
+    padding-left: 15px;
+}
+.neworleans
+{
+    width: 25%;
+    height: 100px;
+    /* background-color: blue; */
+    font-size: 50px;
+    padding-left: 15px;
+
+}
+.queens
+{
+    width: 25%;
+    height: 100px;
+    /* background-color: red; */
+    font-size: 50px;
+    padding-left: 15px;
+
+}
+.box6,.box7,.box8,.box9
+{
+       /* background-color: palevioletred; */
+       display: flex;
+}
+.bridgeport,.concord,.dayton,.elpaso
+{
+    width: 25%;
+    height: 100px;
+    /* background-color:red; */
+    font-size: 50px;
+    padding-left: 50px;
+}
+.indianapolis,.mcallen,.mesa,.milwaukee
+{
+    
+    width: 25%;
+    height: 100px;
+    /* background-color:blue; */
+    font-size: 50px;
+    padding-left: 15px;
+}
+.oklahomacity,.omaha,.orlando,.palmbay
+{
+    width: 25%;
+    height: 100px;
+    /* background-color: red; */
+    font-size: 50px;
+    padding-left: 15px;
+
+}
+.sanantonio,.stonybrook,.tucson,.westhollywood
+{
+    width: 25%;
+    height: 100px;
+    /* background-color: blue; */
+    font-size: 50px;
+    padding-left: 15px;
+
+}
+/* ..............................................7.................................................... */
+.box10
+{
+    height: 200px;
+    width:100%;
+    /* background-color: red; */
+    display: flex;
+    
+}
+.cou
+{
+    height: 200px;
+    width: 50%;
+    /* background-color:blue; */
+    padding-left: 2%;
+    /* padding-bottom: 4%; */
+    font-size: 50px;
+    /* line-height: 200px; */
+    color: black;
+    padding-bottom:200px;
+    padding-top: 100px;
+
+}
+.view2
+{
+      height: 200px;
+      width: 50%;
+      /* background-color: aqua; */
+      font-size: 40px;
+      /* line-height: 200px; */
+      padding-left: 36%;
+      padding-top: 130px;
+}
+/* .....................................................8........................................................ */
+.boxx
+{
+    /* background-color: yellow; */
+    height: 1100px;
+    width: 100%;
+    padding-top: 2%;
+}
+.box11
+{
+       /* background-color: yellow; */
+       display: flex;
+       height: 200px;
+       line-height: 200px;
+}
+.australia
+{
+    width: 25%;
+    height: 100px;
+    /* background-color: blue; */
+    font-size: 50px;
+    padding-left: 50px;
+}
+.france
+{
+    
+    width: 25%;
+    height: 100px;
+    /* background-color: red; */
+    font-size: 50px;
+    padding-left: 15px;
+}
+.netherlands
+{
+    width: 25%;
+    height: 100px;
+    /* background-color: blue; */
+    font-size: 50px;
+    padding-left: 15px;
+
+}
+.sweden
+{
+    width: 25%;
+    height: 100px;
+    /* background-color: red; */
+    font-size: 50px;
+    padding-left: 15px;
+
+}
+.box12,.box13,.box14,.box15,.box16,.box17,.box18
+{
+       /* background-color: yellow; */
+       display: flex;
+}
+.belgium,.canada,.chile,.costarica,.dominicanrepublic,.Ecuador,.elsalvador
+{
+    width: 25%;
+    height: 100px;
+    /* background-color: blue; */
+    font-size: 50px;
+    padding-left: 50px;
+}
+.germany,.guatemala,.ireland,.italy,.Japan,.Kenya,.mexico
+{
+    
+    width: 25%;
+    height: 100px;
+    /* background-color: red; */
+    font-size: 50px;
+    padding-left: 15px;
+}
+.newzealand,.panama,.poland,.portugal,.southafrica,.Spain,.srilanka
+{
+    width: 25%;
+    height: 100px;
+    /* background-color: blue; */
+    font-size: 50px;
+    padding-left: 15px;
+
+}
+.switzerland,.taiwan,.unitedkingdom,.unitedstates
+{
+    width: 25%;
+    height: 100px;
+    /* background-color: red; */
+    font-size: 50px;
+    padding-left: 15px;
+}
+/* ..................................................9............................................................. */
+.boxx2
+{
+    padding-bottom: 100px;
+}
+.box19
+{
+    display: flex;
+    /* height: 300px; */
+    /* background-color: blue; */
+    width: 100%;
+    margin-top: 100px;
+}
+.ube
+{
+    width: 33.33%;
+    font-size:35px;
+    padding-left: 100px;
+    
+    /* background-color: aqua; */
+}
+.gethelp
+{
+    width: 33.33%;
+    /* background-color: brown; */
+    font-size: 50px;
+}
+.res
+{
+    
+    width: 33.33%;
+    /* background-color: aqua; */
+    font-size: 50px;
+}
+.box20
+{
+    display: flex;
+    width: 100%;
+}
+.b_1
+{
+    width: 33.33%;
+    height: 50px;
+    /* background-color: aqua; */
+}
+.bgc
+{
+    width: 33.33%;
+    /* margin-top: 40px; */
+    height: 50px;
+    /* background-color: brown; */
+    font-size: 50px;
+}
+.vac
+{
+    
+    width: 33.33%;
+    height: 50px;
+    /* margin-top: 40px; */
+    /* background-color: aqua; */
+    font-size: 50px;
+}
+.box21
+{
+    display: flex;
+    width: 100%;
+}
+.b_2
+{
+    width: 33.33%;
+    height: 50px;
+    /* background-color: aqua; */
+}
+.ayr
+{
+    width: 33.33%;
+    margin-top: 40px;
+    height: 50px;
+    /* background-color: brown; */
+    font-size: 50px;
+}
+.vaco
+{
+    
+    width: 33.33%;
+    height: 50px;
+    margin-top: 40px;
+    /* background-color: aqua; */
+    font-size: 50px;
+}
+
+.box22
+{
+    display: flex;
+    width: 100%;
+}
+.b_3
+{
+    width: 33.33%;
+    height: 50px;
+    /* background-color: aqua; */
+}
+.sud
+{
+    width: 33.33%;
+    margin-top: 40px;
+    height: 50px;
+    /* background-color: brown; */
+    font-size: 50px;
+}
+.pnm
+{
+    
+    width: 33.33%;
+    height: 50px;
+    margin-top: 40px;
+    /* background-color: aqua; */
+    font-size: 50px;
+}
+.box23
+{
+    display: flex;
+    width: 100%;
+}
+.b_4
+{
+    width: 33.33%;
+    height: 50px;
+    /* background-color: aqua; */
+}
+.caba
+{
+    width: 33.33%;
+    margin-top: 40px;
+    height: 50px;
+    /* background-color: brown; */
+    font-size: 50px;
+}
+.aue
+{
+    
+    width: 33.33%;
+    height: 50px;
+    margin-top: 40px;
+    /* background-color: aqua; */
+    font-size: 50px;
+}
+.box24
+{
+    display: flex;
+    width: 100%;
+    /* background-color: blue; */
+}
+.b_5
+{
+    width: 33.33%;
+    height: 50px;
+    padding-left: 50px;
+    
+    
+}
+.pro
+{
+    width: 33.33%;
+    margin-top: 40px; 
+    font-size: 50px;
+}
+.eng
+{
+    
+    width: 33.33%;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+/* ................................................................10....................................................... */
+.main_boxx25
+{
+    padding-bottom: 100px;
+}
+
+
+
+.main_box25
+ {
+    width: 100%;
+    /* background-color: red; */
+ }
+
+
+.box25
+ {
+    display: flex;
+    justify-content:space-evenly;
+    /* width:50%; */
+    /* background-color: blue; */
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 60px;
+ }
+ .khali
+ {
+    width: 30%;
+    /* background-color: aqua; */
+ }
+ .pripo
+ {
+     font-size: 30px;
+     /* background-color:brown; */
+ }
+ .terms
+ {
+    font-size: 30px;
+    /* background-color: blueviolet; */
+ }
+ .pricing
+ {
+    font-size: 30px;
+    /* background-color: brown; */
+ }
+.dnsompi
+{
+    font-size: 30px;
+    /* background-color: blueviolet; */
+}
+.box26
+{
+    display: flex;
+    /* justify-content: space-evenly; */
+    font-size: 30px;
+    margin-top: 40px;
+}
+.khali2
+{
+    width: 20%;
+    /* background-color: yellowgreen; */
+}
+.tsip
+{
+    width: 60%;
+    /* background-color:blueviolet; */
+    padding-left: 100px;
+}
+.uti
+{
+    /* background-color: yellow; */
+    padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
