@@ -1,0 +1,359 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.x {
+    width: 100%;
+    /* padding: 10px; */
+    /* height: 40px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.a {
+    width: 16.6%;
+    /* background-color: aqua; */
+    border-right: 1px solid gray;
+    text-align: center;
+    line-height: 40px;
+}
+
+.x .a i {
+    color: #2fdab8;
+}
+
+.b {
+    width: 16.6%;
+    /* background-color: blueviolet; */
+    border-right: 1px solid gray;
+    text-align: center;
+    line-height: 40px;
+}
+
+.x .b i {
+    color: #2fdab8;
+}
+
+.c {
+    width: 16.6%;
+    /* background-color: aqua; */
+    border-right: 1px solid gray;
+    text-align: center;
+    line-height: 40px;
+}
+
+.x .c i {
+    color: #2fdab8;
+}
+
+.d {
+    width: 16.6%;
+    /* background-color: blueviolet; */
+    /* border-right: 1px solid gray; */
+    text-align: center;
+    line-height: 40px;
+}
+
+.x .d i {
+    color: #2fdab8;
+}
+
+.e {
+    width: 16.6%;
+    /* background-color: aqua; */
+}
+
+.f {
+    width: 16.6%;
+    /* background-color: blueviolet; */
+}
+
+
+/* end 1 line  */
+
+
+/* 2 line strat */
+
+.neve {
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: red; */
+    display: flex;
+    text-align: center;
+    line-height: 80px;
+    flex-wrap: wrap;
+    
+}
+
+.neve .ab {
+    /* background: red; */
+    width: 33.33%;
+    height: 100px;
+    padding: 10px;
+    /* background-color: red; */
+}
+
+.neve .ab i {
+    /* background: red; */
+    /* width: 33.3vw; */
+    background-color: #2fdab8;
+    padding: 10px;
+}
+
+input {
+    /* background: red; */
+    height: 40px;
+    width: 60%;
+}
+
+.neve .bb {
+    /* background: red; */
+    width: 33.33%;
+    /* background-color: blue; */
+    height: 100px;
+}
+
+.neve .bb h1 {
+    font-size: 50px;
+    padding: 14px;
+}
+
+.neve .bb h1 span {
+    background-color: black;
+    padding: 8px;
+    color: white;
+}
+
+.neve .cb {
+    /* background: red; */
+    width: 33.33%;
+    font-size: 25px;
+    padding: 14px;
+    height: 100px;
+}
+
+.neve .cb i {
+    background-color: #39569c;
+    padding: 6px;
+    font-size: 10px;
+}
+
+/* -------------------------------------------------------------------- */
+.bar 
+{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 20px 0; */
+    background-color: black;
+}
+
+.bar .links li {
+    display: inline;
+    margin-right: 60px;
+    position: relative;
+    
+    
+}
+
+.bar ul li::before
+{
+    content: " ";
+
+
+    height: 7px;
+    margin-top: 27px;
+    width: 0px;
+    background: #2fdab8;
+    position: absolute;
+    top:100%;
+    left:0px;
+
+    transition: 1s;
+}
+
+.bar ul li:hover::before
+{
+    width: 100%;
+}
+
+.bar a 
+{
+    text-decoration: none;
+    font-size: 22px;
+    color:#fff;
+    
+}
+.bar .links 
+{
+    padding: 30px 0;
+}
+
+
+.icon 
+{
+    background-color: #2fdab8;
+    width: 350px;
+    height: 9 0px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+}
+
+.menu
+{
+    display: none;
+}
+
+
+
+/* 2nd line end */
+
+
+/* image set */
+
+
+/* .images {
+    background-color: #2fdab8;
+    width: 100%;
+    height: 100%;
+    display: flex;
+} */
+
+.image {
+    background: url(images/banner1.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    text-align: center;
+    box-shadow: inset 0px 0px  500px black;
+    position: relative;
+}
+.image h1 {
+    padding-top: 12%;
+    font-size: 50px;
+    color: #fff;
+}
+
+.image span {
+    color: #2fdab8
+}
+
+.image p {
+    font-size: 30px;
+    color: #ffb900;
+}
+.borderbox{
+    height: 50px;
+    width: 150px;
+    background:  #2fdab8;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+
+    outline: 7px solid transparent; 
+    outline-offset: 0px; 
+    
+}
+.borderbox:hover 
+{
+    outline: 7px solid  #2fdab8;
+    outline-offset: 7px;
+}
+
+
+/* 2types image set */
+
+.box
+{
+    
+    /* height: 1000px; */
+    height: 500px;
+    width: 100%;
+    background: blueviolet;
+    display: flex;
+    padding: 0 100px;
+    padding-top: 100px;
+     justify-content: space-between;
+    
+
+}
+.image1
+{
+    height: 300px;
+    width: 35%;
+    background-repeat: no-repeat;
+    /* background: yellow  */
+    background: url( images/bottom1.jpg );
+    background-size: 110% 100%;
+    position: relative;
+ 
+}
+
+ .bord{
+
+    /* background-color: red; */
+    height: 40px;
+    width: 20%;
+    margin-top: 25px;
+    margin-left: 35px;
+    border:3px solid #2fdab8;
+    position: absolute;
+   
+ }
+
+
+.image2{
+    height: 300px;
+    width:  35%;
+    background: black;
+}
+
+
+
+
+ /* letter */
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

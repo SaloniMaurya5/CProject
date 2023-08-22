@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .x 
+        {
+            height: 300px;
+            width: 550px;
+            background: url(https://augustav.com/images/bottom1.jpg);
+            background-position: -20px 0;
+            margin: 100px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .x:hover 
+        {
+            background-position:  0 0 ;
+        }
+        .y
+        {
+            height: 200px;
+            width: 450px;
+            background-color: transparent;
+            border: 3px solid #fff;
+            display: none;
+
+            color: #fff;
+        }
+        .x:hover .y 
+        {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="x"> 
+        <div class="y">
+
+            New Arrivals
+        </div>
+    </div>
+    
+</body>
+</html>

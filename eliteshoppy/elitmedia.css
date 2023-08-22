@@ -1,0 +1,40 @@
+@media(max-width:654px) {
+    .x .f {
+        display: none;
+    }
+    .x .e {
+        display: none;
+    }
+    .x .a {
+        width: 50%;
+    }
+    .x .b {
+        width: 50%;
+    }
+    .x .c {
+        width: 50%;
+    }
+    .x .d {
+        width: 50%;
+    }
+}
+
+@media(max-width:500px) {
+ .neve .ab {
+        width: 100%;
+    }
+    .neve .bb {
+        width: 50vw;
+    }
+    .neve .cb {
+        width: 50%;
+    }
+}
+@media(max-width:639px){
+    .bar .home{display: none;}
+    .bar .icon {margin-left: 50%;}
+    .bar .menu{display: block;}
+    }
+    
+
+
