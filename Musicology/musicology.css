@@ -1,0 +1,806 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background
+{
+   background-image: url(../Musicology/image/background.png);
+   width: 100%;
+   padding-bottom: 28vh;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   /* background-color: blue; */
+}
+.menu
+{
+  display: none;
+}
+.menu2
+{
+  display:block;
+  display: flex;
+  
+}
+.nevbar
+{
+width: 100%;
+background-color:#303030;
+display: flex;
+justify-content:space-between;
+}
+.logo
+{
+/* background-color: aqua; */
+width:20%;
+padding-left: 80px;
+padding-top: 10px;
+} 
+
+.list
+{
+/* background-color: red; */
+width: 60%;
+font-size: 5px;
+color: #fff;
+padding-left: 80px;
+}
+ul
+{
+display: flex;
+list-style: none;
+padding-top: 4%;
+font-family: "Oswald";
+font-size: 20px;
+}
+li
+{
+  margin-right:70px;
+  font-family: "Oswald";
+
+}
+.srech
+{
+  /* background-color:yellow; */
+  width: 20%;
+  padding-left: 100px;
+  padding-top: 20px;
+  font-size: 35px;
+  color: #fff;
+  
+}
+/* ..........................................................1............................................................. */
+.box
+{
+    width:100%;
+    /* background-color: aqua; */
+}
+.title
+{
+  /* background-color: red; */
+  width: 50%;
+  font-size: 50px;
+  font-weight: 500;
+  color: #fff;
+  font-family:"Oswald";
+  margin-top: 100px;
+  margin-left: 5%;
+  padding-top: 35px;
+  
+}
+
+.title>h1{
+  padding-top: 100px;
+}
+.pre
+{
+  /* background-color: yellow; */
+  width: 40%;
+  font-size: 22px;
+  color: #fff;
+  margin-left: 80px;
+  font-family: "Montserrat";
+  margin-bottom: 20px;
+}
+.but
+{
+   width: 25%;
+   background-color:#e8631c;
+   color: #fff;
+   font-family:"Oswald";
+   border-style:none;
+   font-size:40px;
+   margin-left: 80px; 
+   /* margin-bottom: 80px; */
+}
+
+/* ......................................2.................................................... */
+.box1
+{
+  width: 100%;
+  background-color: #e8631c;
+  /* padding-bottom: 100px; */
+  /* margin-right: 100px; */
+
+}
+.dan
+{
+  /* background-color: yellow; */
+  width: 100%;
+  color: #fff;
+  align-items:center;
+}
+.dan1
+{
+  padding-top: 30px;
+  font-family:"Oswald";
+  font-weight: 800;
+  text-align: center;
+  font-size: 70px;
+}
+.pre-011
+{
+       /* background-color: palevioletred; */
+       width: 9 0%;
+       padding: 20 100px;
+       margin: 0 100px;
+}
+.pre-01
+{
+  font-family: "Montserrat";
+  padding: 20px 100px;
+  margin: 30px 100px;
+  font-size: 1.5rem;
+  color:#fff;
+  text-align: center;
+}
+.contt
+{
+  width: 80%;
+  /* background-color:red; */
+  margin: 0 100px;
+  padding-bottom: 100px;
+}
+.boys
+{
+   display: flex;
+   padding-left: 100px;
+   justify-content: space-evenly;
+   gap: 40px;
+   
+   
+}
+.boy1
+{
+  background-color:#303030;
+  text-align: center;
+  color:#fff;
+  /* width:35%; */
+  padding-bottom: 50px;
+
+
+}
+.boy2
+{
+  background-color:#303030;
+  /* width: 46.6%; */
+  text-align: center;
+  color:#fff;
+  
+}
+.boy3
+{
+  background-color:#303030;
+  /* width: 46.6%; */
+  text-align: center;
+  color:#fff;
+
+}
+.para
+{
+     /* font-size: 20px; */
+     font-family: "Montserrat";
+     padding-top: 20px;
+}
+.h1-02
+{
+  font-family:"Oswald";
+  /* font-size: 18px; */
+  font-weight: 400;
+}
+/* ............................................................3......................................................  */
+.box2
+{
+  width: 100%;
+  background-color:#303030;
+  /* padding-bottom: 40px; */
+  /* margin-right: 100px; */
+  /* padding-left: 100px; */
+
+}
+.Pricing
+{
+  /* background-color: yellow; */
+  width: 100%;
+  color: #fff;
+  align-items:center;
+}
+.Pricing1
+{
+  padding-top: 30px;
+  font-family:"Oswald";
+  font-weight: 800;
+  text-align: center;
+  font-size: 70px;
+}
+.pre-012
+{
+       /* background-color: palevioletred; */
+       width: 100%;
+       padding: 0 100px;
+    
+}
+.pre-02
+{
+  font-family: "Montserrat";
+  padding: 40px 100px;
+  margin: 0 100px;
+  font-size: 1.5rem;
+  color:#fff;
+  text-align: center;
+} 
+.ribbin
+{
+   display: flex;
+   padding-left: 70px;
+   /* background-color: yellow; */
+   gap:40px;
+   padding-bottom: 100px;
+   margin-left: 100px;
+}
+.ribbin1
+{
+  background-color:#e8631c;
+  padding-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+  width: 25%;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+}
+.ribbin2
+{
+  background-color:#e8631c;
+  text-align: center;
+  width: 25%;
+  color: #fff;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.ribbin3
+{
+  background-color:#e8631c;
+  width: 25%;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  
+}
+.b1
+{
+    background-color:#303030;
+    color:#fff;
+    font-family:"Oswald";
+    font-size: 20px;
+    width:90%;
+    text-align: center;
+    margin-top: 20px;
+    border-style:none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  
+}
+.b2
+{ 
+  background-color:#303030;
+  color:#fff;
+  font-family:"Oswald";
+  font-size: 20px;
+  width:90%;
+  text-align: center;
+  margin-top: 20px;
+  border-style:none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+.b3
+{
+  background-color:#303030;
+  color:#fff;
+  font-family:"Oswald";
+  font-size: 20px;
+  width:90%;
+  text-align: center;
+  margin-top: 20px;
+  border-style:none; 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+.para-0
+{
+    
+     font-family: "Montserrat";
+     padding-top: 30px;
+}
+.h1-03
+{
+  font-family:"Oswald";
+  font-weight: 400;
+  padding-top: 30px;
+}
+/* ...........................................................4........................................................... */
+.box3
+{
+   background-color: #e8631c;
+   width: 100%;
+}
+.cont15
+{
+     width: 50%;
+     margin-top: 100px;
+     padding-top: 100px;
+     
+}
+.blackfullboy
+{
+  width: 50%;
+  background-color: #fff;
+}
+.maindiv
+{
+  display: flex;
+  color: #fff;
+}
+.hh
+{
+  font-family:"Oswald";
+  font-weight: 400;
+  /* background-color:yellow; */
+  width: 70%;
+  margin-top: 90px;
+  padding-top: 40px;
+  margin-left: 100px;
+  padding-left: 100px;
+  font-size: 50px;
+  
+  
+}
+.pp
+{
+  font-family: "Montserrat";
+  /* background-color: yellowgreen; */
+  width: 60%;
+  padding-top: 50px;
+  margin-left: 100px;
+  padding-left: 100px;
+  /* text-align: center; */
+}
+.btn
+{
+  margin-top: 50px;
+  background-color:#303030;
+  color:#fff;
+  font-family:"Oswald";
+  font-size: 20px;
+  width:30%;
+  border-style:none; 
+  margin-left: 14vw;
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  border-radius: 5px;}
+  /* ...........................................................5........................................................... */
+  .box4
+  {
+     background-color: #e8631c;
+     width: 100%;
+  }
+  .cont16
+  {
+       width: 50%;
+       margin-top: 100px;
+       padding-top: 100px;
+       
+  }
+  .blackfullboyy1
+  {
+    width: 50%;
+    background-color: #fff;
+  }
+  .maindivv1
+  {
+    display: flex;
+    color: #fff;
+  }
+  .hhh
+  {
+    font-family:"Oswald";
+    font-weight: 400;
+    /* background-color:yellow; */
+    width: 70%;
+    margin-top: 90px;
+    padding-top: 40px;
+    margin-left: 100px;
+    padding-left: 100px;
+    font-size: 50px;
+    
+    
+  }
+  .ppp
+  {
+    font-family: "Montserrat";
+    /* background-color: yellowgreen; */
+    width: 60%;
+    padding-top: 50px;
+    margin-left: 100px;
+    padding-left: 100px;
+    /* text-align: center; */
+  }
+  .b5
+  {
+    margin-top: 50px;
+    background-color:#303030;
+    color:#fff;
+    font-family:"Oswald";
+    font-size: 20px;
+    width:30%;
+    border-style:none; 
+    margin-left: 14vw;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    border-radius: 5px;}
+    /* ...........................................................6........................................................... */
+
+    .box5
+    {
+      background-color: #303030;
+      font-size: 20px;
+      padding-bottom: 100px;
+      text-align: center;
+      width: 100%;
+      padding-top: 100px;
+      color: #fff;
+    }
+    .prgh
+    {
+      /* background-color: #e8631c; */
+      width: 100%;
+      margin-top: 40px;
+    }
+    .ours
+    {
+       
+    font-family:"Oswald";
+    font-weight: 500px;
+    }
+    .lidsa
+    {
+      font-family: "Montserrat";
+    }
+    .numberic
+    {
+      font-size: 40px;
+      display: flex;
+      width: 90%;
+      margin: 100px;
+    }
+    .club 
+    {
+      font-family:"Oswald";
+      width:30%;
+      /* background-color: #e8631c; */
+      /* margin-left: 100px; */
+      padding: 40px ;
+      
+    }
+    .membar
+    {
+      /* background-color: aqua; */
+      width:30%;
+      font-family:"Oswald";
+      padding: 40px ;
+    }
+    .community
+    {
+    /* background-color:red; */
+    width:30%;
+    font-family:"Oswald";
+    padding: 40px ;
+    }
+     /* ...........................................................7........................................................... */
+     .p7
+     {
+      font-family: "Montserrat";
+      text-align: center;
+      color: #fff;
+      font-size: 60px;
+      margin-top: 100px;
+      padding-top: 100px;
+      /* padding: 100px; */
+     }
+     .hh7
+     {
+      font-family:"Oswald";
+      text-align: center;
+      color: #fff;
+      font-size: 50px;
+     }
+     .orngb{
+      background-image: url(../Musicology/image/Shape.png);
+      width:100%;
+      padding-bottom:13vw;
+      background-size: 100%;
+     }
+     .p7_1
+     {
+      /* background-color: aqua; */
+      width:100%;
+      padding: 100px;
+      /* padding-bottom: 100px; */
+     }
+     .hh7_1
+     {
+      
+      /* background-color: brown; */
+      width:100%;
+      padding-bottom: 100px;
+     }
+     
+     /* ...........................................................8........................................................... */
+     .maindiv2
+     {
+      background-color: #e8631c;
+      width: 100%;
+      color: #fff;
+      padding-bottom: 100px;
+     }
+     .sub_1
+     {
+      font-size: 40px;
+      font-family:"Oswald";
+      text-align: center;
+      padding-top: 100px;
+      
+     }
+     .p8
+     {
+      font-family: "Montserrat";
+      text-align: center;
+      /* background-color: aqua; */
+      padding-top:50px;
+      font-size: 40px;
+     }
+     .inp
+     {
+       /* background-color: aqua; */
+       width: 100%;
+       text-align: center;
+       margin-top: 70px;
+     }
+     input
+     {
+       font-size: 20px;
+       width: 30%;
+       border-style: none;
+       height: 55px;
+       line-height: 50px;
+       padding-left: 20px;
+       /* border-radius: 6px; */
+     }
+     .but81
+     {
+         background-color: #303030;
+         color: #fff;
+         font-size: 15px;
+        /* border-radius: 1px; */
+         font-family:"Oswald";
+         width: 20%;
+         height: 54px;
+         border-style: none;
+         /* border-radius: 5px; */
+         /* margin-right: 100px; */
+
+     }
+     
+     /* ...........................................................9........................................................... */
+     .maindiv_1
+     {
+       background-color: #303030;
+       width: 100%;
+       color: #fff;
+       font-family: "Montserrat";
+       display: flex;
+       padding-top: 100px;
+       padding-left: 100px;
+       font-weight: bold;
+       font-size: 20px;
+
+     }
+     .music
+     {
+        width: 55%;
+     }
+     .about 
+     {
+      width: 15%;
+     }
+     .service
+     {
+      width: 15%;
+     }
+     .other
+     {
+      width: 15%;
+     }
+
+     .maindivv_2
+     {
+       background-color: #303030;
+       width: 100%;
+       color: #fff;
+       font-family: "Montserrat";
+       display: flex;
+       padding-top: 15px;
+       padding-left: 100px;
+
+     }
+     .prgh_1
+     {
+        width: 55%;
+     }
+     .history
+     {
+      width: 15%;
+     }
+     .howto
+     {
+      width: 15%;
+     }
+     .contact
+     {
+      width: 15%;
+     }
+     .maindivv_3
+     {
+       background-color: #303030;
+       width: 100%;
+       color: #fff;
+       font-family: "Montserrat";
+       display: flex;
+       padding-left: 100px;
+
+     }
+     .kha
+     {
+        width: 55%;
+     }
+     .ot
+     {
+      width: 15%;
+     }
+     .op
+     {
+      width: 15%;
+     }
+     .hp
+     {
+      width: 15%;
+     }
+     .maindivv_4
+     {
+       background-color: #303030;
+       width: 100%;
+       color: #fff;
+       font-family: "Montserrat";
+       display: flex;
+       padding-left: 100px;
+
+     }
+     .dni
+     {
+        width: 55%;
+     }
+     .bg
+     {
+      width: 15%;
+     }
+     .os
+     {
+      width: 15%;
+     }
+     .pr
+     {
+      width: 15%;
+     }
+     .maindivv_5
+     {
+       background-color: #303030;
+       width: 100%;
+       color: #fff;
+       font-family: "Montserrat";
+       display: flex;
+       padding-left: 100px;
+
+     }
+     .ate
+     {
+        width: 55%;
+     }
+     .tc
+     {
+      width: 15%;
+     }
+     .pro
+     {
+      width: 15%;
+     }
+     .p_0
+     {
+      width: 15%;
+     }
+
+     .maindivv_6
+     {
+       background-color: #303030;
+       width: 100%;
+       color: #fff;
+       font-family: "Montserrat";
+       display: flex;
+       padding-left: 100px;
+
+     }
+     .inst_i i 
+     {
+        border-radius: 10%;
+        /* font-size: 40px; */
+     }
+     .feb_i i{
+      border-radius: 10%;
+     }
+     .tiw_i i{
+      border-radius: 10%;
+     }
+     .wat_i i
+     {
+      border-radius: 10%;
+    }
+     .prpo
+     {
+      width: 15%;
+     }
+     .pm
+     {
+      width: 15%;
+     }
+     .pp_0
+     {
+      width: 15%;
+     }
